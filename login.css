@@ -1,0 +1,119 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color:  !important;
+}
+
+.bg-light{
+	background-color: #fae6e6 !important;
+}
+.active{
+	color: #00751d !important;
+	font-family: Times New Roman;
+		font-weight: 800;
+
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    
+    padding-right: 15px;
+}
+
+
+.navbar-brand{
+	    font-family: 'Aclonica';
+	    font-size: 22px;
+	    color: #ff001e !important;
+
+}
+
+
+.active:hover{
+
+	color: #d42a08 !important;
+	transition: 0.5s;
+}
+
+
+
+.formgrid{
+	background-color:   !important;
+	height: 400px;
+}
+
+.middle{
+	border: 2px solid #eb4034;
+	height: 300px;
+	padding-top: 30px;
+	margin-top: 50px;
+	
+	border-radius: 10px !important;
+}
+
+.middle .entry{
+
+	width: 400px;
+	font-family: Times New Roman;
+	height: 50px;
+	border: 2px solid #eb4034;
+	color: orange;
+	font-size: 20px;
+	font-weight: 600;
+	border-radius: 10px !important;
+
+}
+ .sub{
+ 	width: 200px;
+ 	background-color:#eb4034;
+ 	border: 2px solid #8c0b23;
+ 	font-family: Times New Roman;
+ 	font-weight: 600;
+ 	color: white;
+ 	border-radius: 10px !important;
+ }
+.sub:hover{
+	background-color: #8c0b23 !important;
+}
+
+#bg-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1; /* Keeps video behind content */
+  object-fit: cover; /* Ensures video scales properly */
+}
+
+
+.middle h2{
+	font-family: Times New Roman;
+	font-weight: 600;
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px){
+
+.middle .entry{
+
+	width: 250px;
+	
+
+}
+.middle{
+	margin-left: -15px;
+}
+
+
+
+
+
+
+}
